@@ -1,0 +1,20 @@
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+li,
+address {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a,
+img {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}

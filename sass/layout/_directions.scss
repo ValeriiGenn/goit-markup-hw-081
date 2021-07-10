@@ -1,0 +1,47 @@
+
+
+    
+.directions {
+        display: none;
+        @media screen and (min-width: 1200px) {
+            display: block;        }
+    
+    padding-top: 47px;
+    padding-bottom: 94px;
+    &__title {
+    color: var(--black-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;}
+
+
+     &__list {
+    display: flex;
+    flex-wrap: wrap;}
+    &__item {
+    flex-basis: calc((100% - 60px) / 3);
+    position: relative;
+    &:not(:last-child) {
+    margin-right: 30px;}}
+    &__name {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--bgmodal-color);
+    background-color: var(--bgthumb-color);}
+    &__content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}}
+
+
+
+
+
+

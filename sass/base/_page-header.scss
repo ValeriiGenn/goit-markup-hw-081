@@ -1,0 +1,44 @@
+
+.page-header {
+     
+
+   
+    &__container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        
+        border-bottom: 1px solid #ececec;
+        margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+        @media screen and (min-width: 768px) {
+           
+        }
+     @media screen and (min-width: 1200px) {
+             
+             padding-top: 24px;
+    
+             padding-bottom: 25px;} }
+     
+}
+.mobile-menu{ 
+    &__button {
+        
+            display: inline-flex;
+            margin: 0;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            
+        @media screen and (min-width: 768px) {
+            display: none;}
+             @media screen and (min-width: 480px) { 
+                 margin-left: auto;
+             }
+}
+}
+/*.mobile-menu .is-open{transform: translateX(0);}*/
