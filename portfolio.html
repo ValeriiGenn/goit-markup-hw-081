@@ -122,11 +122,31 @@
             <li class="portfolio-list__item">
               <a href="" class="portfolio-list__item-card">
                 <div class="portfolio-list__item-card-thumb">
-                  <img
-                    src="./images/img.P1.jpg"
-                    alt="фото вебсайту"
-                    width="100%"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/compr1200/p11x-min.jpg 1x,
+                        ./images/compr1200/p12x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/compr768 1x, ./images/img2_768_2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img2_480.jpg    1x,
+                        ./images/img2_480_2x.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
+                    <img
+                      src="./images/img2_480.jpg"
+                      alt="постер New Orlean vs Golden Star"
+                    />
+                  </picture>
+
                   <div class="portfolio-list__item-content-hidden">
                     <p class="portfolio-list__item-text-hidden">
                       Технокряк это современная площадка распространения
