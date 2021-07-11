@@ -1175,7 +1175,7 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .page-footer__wraper-tablet {
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     margin-bottom: 60px;
   }
 }
@@ -1311,7 +1311,7 @@ body {
 }
 
 .footer-social-networks {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   width: 206px;
 }
 
