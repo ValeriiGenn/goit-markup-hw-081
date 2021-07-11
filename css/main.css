@@ -135,6 +135,7 @@ body {
 
 .mobile-menu.is-open {
   transform: translateX(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -231,6 +232,7 @@ body {
   height: 100vh;
   z-index: 999;
   transform: translateX(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: var(--white-color);
 }
 
@@ -276,6 +278,7 @@ body {
 
 .menu-container.is-open {
   transform: translateX(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu-nav__link,
@@ -1021,14 +1024,13 @@ body {
 .portfolio-list {
   list-style: none;
   margin-bottom: -30px;
-  /*align-items: center;*/
   flex-wrap: wrap;
-  /*display: flex;
-    flex-wrap: wrap;
-    margin-top: -30px;
-    margin-left: -30px;
-    justify-content: center;
-    align-items: center;*/
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-list {
+    flex-grow: 1;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1043,11 +1045,6 @@ body {
   list-style: none;
   width: 100%;
   margin-bottom: 30px;
-  /*flex-basis: calc((100% -60px) / 3 - 30px);
-        margin-left: 30px;
-        margin-top: 30px;
-        display: list-item;
-        text-align: -webkit-match-parent;*/
 }
 
 @media screen and (min-width: 768px) {
@@ -1074,8 +1071,7 @@ body {
 
 .portfolio-list__item-signature {
   color: var(--button-text-color);
-  /*font-weight: bold;*/
-  font-size: 18px;
+  font-size: 16px;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
@@ -1315,12 +1311,13 @@ body {
 }
 
 .footer-social-networks {
-  /*margin: 0 auto;*/
+  margin: 0 auto;
   width: 206px;
 }
 
 @media screen and (min-width: 768px) {
   .footer-social-networks {
+    margin-left: auto;
     margin-bottom: 0;
     padding-top: 5px;
   }

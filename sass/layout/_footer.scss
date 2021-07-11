@@ -122,10 +122,10 @@
     fill: currentColor;}}
     
 .footer-social-networks {
-    
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     width: 206px;
     @media screen and(min-width: 768px) {
+        margin-left: auto;
         margin-bottom: 0;
         padding-top: 5px;}
          @media screen and (min-width: 1200px){margin-left: 70px;}
