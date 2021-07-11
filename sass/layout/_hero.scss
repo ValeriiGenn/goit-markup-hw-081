@@ -82,7 +82,9 @@ padding: 0 15px;
  @media screen and (min-width:768px) {
             background-image: linear-gradient(rgba(0, 0, 0, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url("../../images/Herotabimg1x.jpg");
+                    url("../images/")
+                    /*("../../images/Herotabimg1x.jpg");*/
+               
             background-size: 768px 400px;
         }
  @media screen and (min-width:1200px){background-image: linear-gradient(
