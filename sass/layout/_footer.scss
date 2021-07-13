@@ -29,7 +29,7 @@
          
     text-align: center;
          @media screen and(min-width: 768px) and (max-width: 1199px){
-          /*justify-content: space-between;*/
+         
           margin-bottom: 60px;}
         @media screen and(min-width: 768px){
            display: flex;
@@ -98,14 +98,18 @@
   }}
 
 /*іконки соцмереж*/
+.footer-network__item:not(:first-child) {
+        margin-left: 10px;
+    }
+
 .footer-network {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     
     
 &__item {
-    &:not(:first-child){margin-left: 10px;}
+    &__:not(:first-child){margin-left: 10px;}
   }
 &__link {
     list-style: none;
@@ -125,12 +129,7 @@
     fill: currentColor;}}
     
 .footer-social-networks {
-   /* margin: 0 auto;
-    width: 206px;*/
-   /* @media screen and(min-width: 768px) {
-        margin-left: auto;
-        margin-bottom: 0;
-        padding-top: 5px;}*/
+   @media screen and (min-width: 480px) and(max-width:767px){margin-bottom: 60px;}
          @media screen and (min-width: 1200px){margin-left: 70px;}
     
 &__join {
