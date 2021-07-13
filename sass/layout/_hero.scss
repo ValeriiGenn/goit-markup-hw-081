@@ -4,7 +4,7 @@
     display: block;
         padding-top: 118px;
      height: 400px;
-     background-color: var(--hero-color);
+     
     &__title {
     margin-bottom: 30px;
     color: var(--white-color);
@@ -71,8 +71,8 @@ padding: 0 15px;
         background-position: center;
         background: cover;
  @media screen and (min-width:768px) {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-                    rgba(47, 48, 58, 0.4)),
+            background-image: /*linear-gradient(rgba(0, 0, 0, 0.4),
+                    rgba(47, 48, 58, 0.4)),*/
                     url("../images/Herotabimg2x-min.jpg");
               
             background-size: 768px 400px;
@@ -81,6 +81,7 @@ padding: 0 15px;
         rgba(0, 0, 0, 0.4),
         rgba(47, 48, 58, 0.4)),
     url("../images/Img.bgoptm.jpg");
+    background-color: var(--hero-color);
     background-size: 1600px 600px;
     max-width: 1600px;
     height: 600px;
