@@ -36,21 +36,9 @@
         flex-basis: calc(100% / 2 - 30px);
         @media screen and (min-width: 768px) and (max-width:1199px) {
             flex-basis: calc(100% / 3 - 30px);}
-            /* height: 92px;
- /*@media screen and (min-width: 480px) and (max-width: 767px) {
-         &:not(:last-child) {
-             margin-bottom: 30px; }}
-     
-    @media screen and (min-width: 768px) {
-        flex-basis: calc((100% - 60px) / 2);
-        margin-left: 30px;
-        margin-top: 30px;*/
-    
-
+         
     @media screen and (min-width: 1200px) {
-        flex-basis: calc((100% - 180px) / 6);
-           /* margin-left: 30px;
-        margin-top: 30px;}*/}}
+        flex-basis: calc((100% - 180px) / 6);}}
     &__link {
     display: flex;
     justify-content: center;
