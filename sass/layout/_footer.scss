@@ -28,9 +28,8 @@
     &__wraper-tablet{ 
          
     text-align: center;
-         @media screen and(min-width: 768px) and (max-width: 1199px){
-         
-          margin-bottom: 60px;}
+         /*@media screen and(min-width: 768px) and (max-width: 1199px){         
+          margin-bottom: 60px;}*/
         @media screen and(min-width: 768px){
            display: flex;
         justify-content: space-around;}
@@ -129,9 +128,9 @@
     fill: currentColor;}}
     
 .footer-social-networks {
-   @media screen and (min-width: 480px) and(max-width:767px){margin-bottom: 60px;}
+   
          @media screen and (min-width: 1200px){margin-left: 70px;}
-    
+    @media screen and (min-width: 480px) and(max-width:767px){margin-bottom: 60px;}
 &__join {
     margin-bottom: 20px;
     align-content: center;

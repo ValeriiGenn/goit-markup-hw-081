@@ -1158,12 +1158,8 @@ body {
 
 .page-footer__wraper-tablet {
   text-align: center;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .page-footer__wraper-tablet {
-    margin-bottom: 60px;
-  }
+  /*@media screen and(min-width: 768px) and (max-width: 1199px){         
+          margin-bottom: 60px;}*/
 }
 
 @media screen and (min-width: 768px) {
@@ -1299,15 +1295,15 @@ body {
   fill: currentColor;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .footer-social-networks {
-    margin-bottom: 60px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .footer-social-networks {
     margin-left: 70px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-social-networks {
+    margin-bottom: 60px;
   }
 }
 
